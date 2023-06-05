@@ -1,0 +1,31 @@
+--Question 1 AVG Pitches Per at Bat Analysis
+
+--1a AVG Pitches Per At Bat (LastPitchRays)
+--1b AVG Pitches Per At Bat Home Vs Away (LastPitchRays) -> Union
+--1c AVG Pitches Per At Bat Lefty Vs Righty  -> Case Statement 
+--1d AVG Pitches Per At Bat Lefty Vs Righty Pitcher | Each Away Team -> Partition By
+--1e Top 3 Most Common Pitch for at bat 1 through 10, and total amounts (LastPitchRays)
+--1f AVG Pitches Per at Bat Per Pitcher with 20+ Innings | Order in descending (LastPitchRays + RaysPitchingStats)
+
+--Question 2 Last Pitch Analysis
+
+--2a Count of the Last Pitches Thrown in Desc Order (LastPitchRays)
+--2b Count of the different last pitches Fastball or Offspeed (LastPitchRays)
+--2c Percentage of the different last pitches Fastball or Offspeed (LastPitchRays)
+--2d Top 5 Most common last pitch for a Relief Pitcher vs Starting Pitcher (LastPitchRays + RaysPitchingStats)
+
+--Question 3 Homerun analysis
+
+--3a What pitches have given up the most HRs (LastPitchRays) 
+--3b Show HRs given up by zone and pitch, show top 5 most common
+--3c Show HRs for each count type -> Balls/Strikes + Type of Pitcher
+--3d Show Each Pitchers Most Common count to give up a HR (Min 30 IP)
+
+
+--Question 4 Shane McClanahan
+
+--4a AVG Release speed, spin rate,  strikeouts, most popular zone ONLY USING LastPitchRays
+--4b top pitches for each infield position where total pitches are over 5, rank them
+--4c Show different balls/strikes as well as frequency when someone is on base 
+--4d What pitch causes the lowest launch speed
+
